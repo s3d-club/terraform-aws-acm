@@ -4,7 +4,7 @@ set -e
 s3d-push
 
 module=$(git remote get-url ssh | sed 's/.*\///' | sed 's/\.git//')
-v=$(s3d-flow-json | jq -r .latest)
+v=$(git describe)
 
 s3d-flow-down() {
   sed -i "s/$module?ref=.*\"/$module?ref=$v\"/" *.tf
