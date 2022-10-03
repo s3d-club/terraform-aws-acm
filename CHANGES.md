@@ -12,3 +12,6 @@ Plan:
 - Removed obsolete `s3d-post-flow`
 - Shorter `gitlab.com` source ref
 - Updated `change` module
+
+## [0.1.2](.)
+- Updated `change` module for better error handling
