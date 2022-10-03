@@ -1,5 +1,5 @@
 module "change" {
-  source = "git::https://github.com/s3d-club/terraform-external-data-name-tags?ref=v0.1.0"
+  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.1"
 
   path = path.module
   tags = var.tags
