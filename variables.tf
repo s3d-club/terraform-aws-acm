@@ -8,6 +8,17 @@ variable "domain" {
 		END
 }
 
+variable "subject_alternative_names" {
+  default = []
+  type    = list(string)
+
+  description = <<-END
+		Domain name
+
+		The ACM will be constructed for this domain name.
+		END
+}
+
 variable "tags" {
   default = {}
   type    = map(string)
