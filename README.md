@@ -1,12 +1,17 @@
-# S3D TF AWS ACM
-S3D Club's fork of
-[github.com/terraform-aws-modules](https://github.com/terraform-aws-modules/terraform-aws-acm).
+# AWS ACM Module
+This is a fork of the [github.com/terraform-aws-modules][fork] module.
+
+## Other Documents
+Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
+and [CHANGES][chge] documents before working in this project and anytime they
+are updated.
+
+## Overview
+This is a fork of the [github.com/terraform-aws-modules][fork] module.
 
 Forking the module has ramifactions in terms of security. With this fork we
-know that the sources from
-[github.com/terraform-aws-modules](https://github.com/terraform-aws-modules/terraform-aws-acm)
-can not be altered unless our GitHub account is hacked or GitHub it's self is
-hacked.
+know that the sources from [github.com/terraform-aws-modules][fork] can not be
+altered unless our GitHub account is hacked or GitHub it's self is hacked.
 
 Had we instead simply had module in GitHub that referenced the upstream
 location our understanding of the operation of Terraform is that a request to
@@ -27,3 +32,9 @@ reduced interface and then use the upstream module for our implementation.
 In the near future this module will likely be totally replaced with a less
 complex implementaiton of our own but for now and always we are extremely
 thankful for all the great code provided by the `terraform-aws-modules` group.
+
+[chge]: ./CHANGES.md
+[code]: ./CODE-OF-CONDUCT.md
+[cont]: ./CONTRIBUTING.md
+[fork]: https://github.com/terraform-aws-modules/terraform-aws-acm
+[lice]: ./LICENSE.md
