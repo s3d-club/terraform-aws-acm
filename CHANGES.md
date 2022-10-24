@@ -15,3 +15,6 @@ Plan:
 
 ## [0.1.8](.)
 - Updated `hashicorp/aws` provider
+
+## [0.1.9](.)
+- Added `terraform.tf`
