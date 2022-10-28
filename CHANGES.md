@@ -10,3 +10,6 @@ Plan:
 
 ## [0.1.13](.)
 - Removed dependency on `s3d-flow-json`
+
+## [0.1.14](.)
+- Updated `.terraform.lock.hcl`
