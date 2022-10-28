@@ -13,3 +13,8 @@ Plan:
 
 ## [0.1.14](.)
 - Updated `.terraform.lock.hcl`
+- Updated `name` module
+
+## [0.1.15](.)
+- Updated `aws` version
+- Updated `.terraform.lock.hcl` and `terraform.tf`
