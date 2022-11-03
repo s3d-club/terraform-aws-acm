@@ -1,5 +1,5 @@
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 
 Plan:
 - **TODO** remove upstream code and re-implement with a focus on simplicity
@@ -28,3 +28,6 @@ Plan:
 - Upgraded `terraform` version
 - Upgraded `time` provider
 - Upgraded `name` module
+
+## [0.1.20](.)
+- Updated version
