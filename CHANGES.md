@@ -34,3 +34,6 @@ Plan:
 - Updated `external` provider
 - Updated `name` module
 - Updated `time` provider
+
+## [0.1.22](.)
+- Updated Terraform version
