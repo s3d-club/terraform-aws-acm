@@ -17,5 +17,5 @@ This file describes the project history as it relates to tagged versions.
 ## [0.1.26](.) to [4.2000.2](.)
 - Changed to use `terraform-aws-acm?ref=v4.2.0`
 
-## [4.2000.4](.) to [4.2000.6](.)
+## [4.2000.4](.) to [4.2000.7](.)
 - Updated `README.md`
