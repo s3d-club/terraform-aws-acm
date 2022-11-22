@@ -1,10 +1,9 @@
 # AWS ACM Module
 This is a fork of the [github.com/terraform-aws-modules][fork] module.
 
-## Other Documents
-Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
-and [CHANGES][chge] documents before working in this project and anytime they
-are updated.
+## Associated Documents
+Please read our [LICENSE][lice], [CONTRIBUTING][cont], and [CHANGES][chge]
+documents before working in this project and anytime they are updated.
 
 ## Overview
 This is a fork of the [github.com/terraform-aws-modules][fork] module.
@@ -30,7 +29,6 @@ to be a general purpose module and as such we provide a reduced interface and
 then use the upstream module for our implementation.
 
 [chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [fork]: https://github.com/terraform-aws-modules/terraform-aws-acm
 [lice]: ./LICENSE.md
