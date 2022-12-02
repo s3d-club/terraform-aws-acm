@@ -7,7 +7,7 @@ locals {
 }
 
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.21"
+  source = "github.com/s3d-club/terraform-external-name?ref=v1.0.1"
 
   path = path.module
   tags = var.tags
