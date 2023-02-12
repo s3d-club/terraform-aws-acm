@@ -7,14 +7,14 @@ locals {
 }
 
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=v1.0.1"
+  source = "github.com/s3d-club/terraform-external-data-name-tags?ref=v1.1.0"
 
   path = path.module
   tags = var.tags
 }
 
 module "upstream" {
-  source = "git::https://github.com/terraform-aws-modules/terraform-aws-acm.git?ref=v4.2.0"
+  source = "git::https://github.com/terraform-aws-modules/terraform-aws-acm?ref=v4.2.0"
 
   domain_name               = var.domain
   subject_alternative_names = var.subject_alternative_names
