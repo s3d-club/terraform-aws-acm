@@ -1,9 +1,10 @@
 data "aws_route53_zone" "this" {
-  name = join(".", slice(local.domain_split, 1, length(local.domain_split)))
+  name = local.domain_split_len == 2 ? var.domain : join(".", slice(local.domain_split, 1, local.domain_split_len))
 }
 
 locals {
-  domain_split = split(".", var.domain)
+  domain_split     = split(".", var.domain)
+  domain_split_len = length(local.domain_split)
 }
 
 module "name" {
